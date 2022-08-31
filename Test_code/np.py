@@ -79,3 +79,5 @@ print(np.sum(c)) # sum of all elements
 print(np.prod(c)) # multiplication all elements
 print(np.mean(c)) # mean
 print(np.std(c)) # standard deviation
+
+# http://bigdata.dongguk.ac.kr/lectures/Python/_book/numpy.html
