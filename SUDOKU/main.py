@@ -10,3 +10,4 @@ print(b)
 s1 = np.zeros((3,3,3))
 s2 = np.zeros((3,3,3))
 s3 = np.zeros((3,3,3))
+
