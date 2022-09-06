@@ -2,6 +2,10 @@
 
 import time
 import random
+from multiprocessing import Process
+
+
+# Time Check Logic
 
 t = []
 for i in range(10) :
@@ -35,6 +39,20 @@ while True :
     else :
         break
 
+# Run Logic
+distance = 0
+footprint = ""
+
+def run() :
+    run = input("please typing r&l\nex) rlrlrlrl...\nrun!\n")
+    # keepgoing
+    # you need time check end logic & continue
+    return run
+footprint += run()
+
+print(footprint)
+
 # Issue
 ## Create logic to connect other programs or use reference
 ## 결승선까지 이동하는 개념의 또 다른 실행이 동시적으로 발생해야한다.
+## >> multiprocessing 으로 해결해보자!
